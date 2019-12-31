@@ -19,6 +19,14 @@ nav ul li {
   list-style: none;
 }
 
+nav ul li:hover {
+  cursor: pointer;
+}
+
+img {
+  width: 100%;
+}
+
 /*== Desktops above 800px ==*/
 @media screen and (min-width: 800px) {
   nav div.hamburger {

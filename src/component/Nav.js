@@ -5,7 +5,7 @@ export default function Nav() {
         <nav>
             <h1>GG</h1>
             <div className="hamburger">&#9776;</div>
-            <ul class="menu">
+            <ul className="menu">
                 <li>Home</li>
                 <li>About</li>
                 <li>Blog</li>
