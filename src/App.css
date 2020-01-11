@@ -1,3 +1,7 @@
+main {
+  padding: 15px;
+}
+
 /*================================
      Navigation
 ================================*/
@@ -5,7 +9,7 @@
 nav {
   display: flex;
   justify-content: space-between;
-  padding: 15px 30px;
+  padding: 15px;
   background: #000;
   color: #fff;
 }
@@ -19,35 +23,12 @@ nav ul li {
   list-style: none;
 }
 
+nav a {
+  color: #fff;
+  text-decoration: none;
+}
+
 nav ul li:hover {
   cursor: pointer;
 }
 
-img {
-  width: 100%;
-}
-
-/*== Desktops above 800px ==*/
-@media screen and (min-width: 800px) {
-  nav div.hamburger {
-    display: none;
-  }
-}
-
-/*== Tablets less than 800px ==*/
-@media screen and (max-width: 800px) {
-  nav .menu {
-    display: flex;
-    flex-direction: column;
-    display: none;
-  }
-
-  nav div.hamburger {
-    margin-top: 15px;
-    font-size: 1.4em;
-  }
-
-  nav div.hamburger:hover {
-    cursor: pointer;
-  }
-}

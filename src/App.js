@@ -1,14 +1,36 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 import Nav from './component/Nav';
-import Card from './component/Card';
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Link
+} from "react-router-dom";
+import CaseStudies from './pages/CaseStudies';
+import Blog from './pages/Blog';
+import Home from './pages/Home';
 
 function App() {
   return (
-    <div className="App">
-      <Nav />
-      <Card />
+    <div>
+      <Router>
+        <Nav />
+
+        <Switch>
+          <main>
+            <Route exact path="/">
+              <Home />
+            </Route>
+            <Route exact path="/case-studies">
+              <CaseStudies />
+            </Route>
+            <Route exact path="/blog">
+              <Blog />
+            </Route>
+          </main>
+        </Switch>
+      </Router>
     </div>
   );
 }
