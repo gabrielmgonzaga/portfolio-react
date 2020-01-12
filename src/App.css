@@ -1,17 +1,19 @@
 main {
-  padding: 15px;
+  padding: 30px;
 }
 
 /*================================
-     Navigation
+          Navigation
 ================================*/
-
 nav {
   display: flex;
   justify-content: space-between;
-  padding: 15px;
-  background: #000;
-  color: #fff;
+  padding: 30px;
+}
+
+nav h1 {
+  font-size: 18px;
+  font-weight: bold;
 }
 
 nav ul  {
@@ -19,12 +21,15 @@ nav ul  {
 }
 
 nav ul li {
-  margin: 10px;
   list-style: none;
 }
 
+nav ul li:first-child {
+  margin-right: 30px;
+}
+
 nav a {
-  color: #fff;
+  color: #333;
   text-decoration: none;
 }
 
@@ -32,3 +37,16 @@ nav ul li:hover {
   cursor: pointer;
 }
 
+/*================================
+          Media Queries
+================================*/
+
+/*========= > 768px 💻 =========*/
+@media only screen and (min-width : 768px) {
+
+}
+
+/*========= < 500px 📱=========*/
+@media only screen and (max-width : 500px) {
+  
+}
