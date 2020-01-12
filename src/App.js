@@ -13,25 +13,25 @@ import Home from './pages/Home';
 
 function App() {
   return (
-    <div>
-      <Router>
-        <Nav />
+    <Router>
+      <div>
+          <Nav />
 
-        <Switch>
           <main>
-            <Route exact path="/">
-              <Home />
-            </Route>
-            <Route path="/case-studies">
-              <CaseStudies />
-            </Route>
-            <Route path="/blog">
-              <Blog />
-            </Route>
+            <Switch>    
+                <Route path="/case-studies">
+                  <CaseStudies />
+                </Route>
+                <Route path="/blog">
+                  <Blog />
+                </Route>
+                <Route path="/">
+                  <Home />
+                </Route>
+            </Switch>
           </main>
-        </Switch>
-      </Router>
-    </div>
+      </div>
+    </Router>
   );
 }
 
