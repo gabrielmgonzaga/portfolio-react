@@ -6,11 +6,11 @@ export default function CaseStudies() {
         <div>
             <Helmet>
                 <meta charSet="utf-8" />
-                <meta name="description" content="Gabriel Gonzaga User Experience Case Studies" />
-                <title>Gabriel Gonzaga - UX Case Studies</title>
+                <meta name="description" content="Gabriel Gonzaga User Experience Work" />
+                <title>Gabriel Gonzaga - UX Work</title>
             </Helmet>
 
-            Case Studies - Under Construction 🚧
+            Work - Under Construction 🚧
         </div>
     )
 }

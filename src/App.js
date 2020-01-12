@@ -7,10 +7,11 @@ import {
   Link
 } from "react-router-dom";
 
-import Nav from './component/Nav';
-import CaseStudies from './pages/CaseStudies';
-import Blog from './pages/Blog';
+import Nav from './components/Nav';
+import Work from './pages/Work';
+import About from './pages/About';
 import Home from './pages/Home';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -20,17 +21,19 @@ function App() {
 
           <main>
             <Switch>    
-                <Route path="/case-studies">
-                  <CaseStudies />
+                <Route path="/work">
+                  <Work />
                 </Route>
-                <Route path="/blog">
-                  <Blog />
+                <Route path="/about">
+                  <About />
                 </Route>
                 <Route path="/">
                   <Home />
                 </Route>
             </Switch>
           </main>
+
+          <Footer />
       </div>
     </Router>
   );

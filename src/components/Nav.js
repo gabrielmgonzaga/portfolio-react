@@ -9,10 +9,10 @@ export default function Nav() {
             </h1>
             <ul>
                 <li>
-                    <Link to="/case-studies">Case Studies</Link>
+                    <Link to="/work">Work</Link>
                 </li>
                 <li>
-                    <Link to="/blog">Blog</Link>
+                    <Link to="/about">About</Link>
                 </li>
             </ul>
         </nav>

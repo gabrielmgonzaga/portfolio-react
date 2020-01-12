@@ -6,11 +6,11 @@ export default function Blog() {
         <div>
             <Helmet>
                 <meta charSet="utf-8" />
-                <meta name="description" content="Gabriel Gonzaga User Experience Blog" />
-                <title>Gabriel Gonzaga - UX Blog</title>
+                <meta name="description" content="Gabriel Gonzaga User Experience Profile" />
+                <title>Gabriel Gonzaga - About</title>
             </Helmet>
 
-            Blog - Under Construction 🚧
+            About - Under Construction 🚧
         </div>
     )
 }

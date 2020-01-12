@@ -1,5 +1,6 @@
 main {
   padding: 30px;
+  height: 75vh;
 }
 
 /*================================
@@ -8,12 +9,14 @@ main {
 nav {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   padding: 30px;
 }
 
-nav h1 {
-  font-size: 18px;
+nav h1 a {
+  color: #333;
   font-weight: bold;
+  text-decoration: none;
 }
 
 nav ul  {
@@ -24,18 +27,47 @@ nav ul li {
   list-style: none;
 }
 
-nav ul li:first-child {
-  margin-right: 30px;
+nav ul li a {
+  color: #aaa;
+  text-decoration: none;
+  transition: all .2s;
 }
 
-nav a {
+nav ul li a:hover {
   color: #333;
-  text-decoration: none;
+}
+
+nav ul li:first-child {
+  margin-right: 30px;
 }
 
 nav ul li:hover {
   cursor: pointer;
 }
+
+/*================================
+          Footer
+================================*/
+footer ul {
+  margin-bottom: 30px;
+  display: flex;
+}
+
+footer ul li {
+  margin-right: 30px;
+  list-style: none;
+}
+
+footer ul li a {
+  color: #aaa;
+  text-decoration: none;
+  transition: all .2s;
+}
+
+footer ul li a:hover {
+  color: #333;
+}
+
 
 /*================================
           Media Queries
