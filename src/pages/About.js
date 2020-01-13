@@ -14,7 +14,7 @@ export default function Blog() {
 
                 <h2>About</h2>
 
-                <img src="https://gabegonzaga.io/assets/gabriel-bw.jpg" alt="Gabriel Gonzaga image" />
+                <img src="https://gabegonzaga.io/assets/gabriel-bw.jpg" alt="Gabriel Gonzaga black and white" />
 
                 <p>Hi, I'm Gabriel. I believe <em>technology and information</em> is a platform to give individuals power and knowledge to transcend and simplify lives. I'm driven to educate and provide easy to use products to have a positive impact for both information consumers, businesses, and startups.</p>
 

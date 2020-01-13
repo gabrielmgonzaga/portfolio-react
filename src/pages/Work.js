@@ -10,7 +10,7 @@ export default function CaseStudies() {
                 <title>Gabriel Gonzaga - UX Work</title>
             </Helmet>
 
-            Work - Under Construction 🚧
+            Under Construction 🚧
         </div>
     )
 }
