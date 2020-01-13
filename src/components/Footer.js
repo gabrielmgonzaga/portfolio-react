@@ -5,13 +5,13 @@ export default function Footer() {
         <footer>
             <ul>
                 <li>
-                    <a rel="noopener" target="_blank" href="https://linkedin.com/in/gabriel-gonzaga">LinkedIn</a>
+                    <a rel="noopener noreferrer" target="_blank" href="https://linkedin.com/in/gabriel-gonzaga">LinkedIn</a>
                 </li>
                 <li>
-                    <a rel="noopener" target="_blank" href="https://github.com/gabrielmgonzaga">Github</a>
+                    <a rel="noopener noreferrer" target="_blank" href="https://github.com/gabrielmgonzaga">Github</a>
                 </li>
                 <li>
-                    <a rel="noopener" target="_blank" href="https://dribbble.com/ggonzaga">Dribbble</a>
+                    <a rel="noopener noreferrer" target="_blank" href="https://dribbble.com/ggonzaga">Dribbble</a>
                 </li>
             </ul>
         </footer>
