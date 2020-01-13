@@ -1,28 +1,52 @@
 body {
   margin: 0 auto;
-  max-width: 1400px;
+  max-width: 1200px;
   font-family: 'Montserrat', sans-serif;
   font-size: 18px;
   color: #333;
+  background: rgb(253,253,253);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background: rgb(253,253,253)
+}
+
+.main-wrapper {
+  position: relative;
+  min-height: 100vh;
 }
 
 main {
-  padding: 30px;
-  height: 75vh;
+  padding: 0 30px 120px;
   line-height: 1.8;
 }
 
+h2 {
+  font-size: 48px;
+}
+
 a {
-  color: #2D84FF;
+  color: #444;
 }
 
 a:hover {
-  color: #0067F9;
+  color: #000;
 }
 
 p {
   font-size: 24px;
 }
+
+img {
+  width: 100%;
+}
+
+/* < 500px 📱*/
+@media only screen and (max-width : 500px) {
+  h2 {
+    font-size: 38px;
+  }
+
+  p {
+    font-size: 20px;
+  }
+}
+

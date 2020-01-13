@@ -15,7 +15,7 @@ import Footer from './components/Footer';
 function App() {
   return (
     <Router>
-      <div>
+      <div className="main-wrapper">
           <Nav />
 
           <main>
