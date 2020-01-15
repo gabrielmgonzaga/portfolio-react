@@ -97,6 +97,43 @@ nav ul li:hover {
   }
 }
 
+/*================================
+             Work
+================================*/
+.work {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 60px;
+}
+
+.work-card {
+  flex: 0 50%;
+  margin-bottom: 60px;
+  padding: 15px;
+  box-sizing: border-box;
+}
+
+.work-card a {
+  text-decoration: none;
+}
+
+.work-card h3 {
+  margin-bottom: 5px;
+}
+
+.work-card p {
+  margin-top: 0;
+  line-height: 1.4;
+}
+
+/* > 750px 📱*/
+@media only screen and (max-width : 750px) {
+  .work-card {
+    flex: 0 100%;
+    padding: 0;
+  }
+}
+
 
 /*================================
             Footer
