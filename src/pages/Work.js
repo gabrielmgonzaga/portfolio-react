@@ -5,19 +5,19 @@ import { Helmet } from 'react-helmet';
 const card = [
     {
         id: 0,
-        link: '/',
-        imgSrc: 'https://via.placeholder.com/1000',
-        imgAlt: 'Image Description 2',
-        title: 'Case Study 1',
-        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+        link: 'https://gabegonzaga.io/writing/addon.html',
+        imgSrc: '',
+        imgAlt: '',
+        title: 'AddOn Networks',
+        description: 'Provides computer network upgrades and connectivity hardware. Initially, I was brought on board on a one month contract which extended to 18 months.'
     },
     {
         id: 1,
-        link: '/',
-        imgSrc: 'https://via.placeholder.com/1000',
-        imgAlt: 'Image Description 2', 
-        title: 'Case Study 2',
-        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'
+        link: 'https://gabegonzaga.io/writing/edco.html',
+        imgSrc: '',
+        imgAlt: '', 
+        title: 'Edco',
+        description: 'Fundraising platform for K-12 schools. The platform allows parents to raise funds, create team pages, invite members, and promote their fundraising activities.'
     },
 ]
 
@@ -27,18 +27,18 @@ export default function CaseStudies() {
             <Helmet>
                 <meta charSet="utf-8" />
                 <meta name="description" content="Gabriel Gonzaga User Experience Work" />
-                <title>Gabriel Gonzaga - UX Work</title>
+                <title>Gabriel Gonzaga - Work</title>
             </Helmet>
 
             <h2>Work</h2>
             <div className="work">
                 {card.map(i => 
                     <div className="work-card" key={i.id}>
-                        <Link to={i.link}>
-                            <img src={i.imgSrc} alt={i.imgAlt}/>
+                        <a href={i.link}>
                             <h3>{i.title}</h3>
                             <p>{i.description}</p>
-                        </Link>
+                            <small>Read More...</small>
+                        </a>
                     </div>
                 )}
             </div>
