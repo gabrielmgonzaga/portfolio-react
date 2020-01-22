@@ -19,14 +19,6 @@ const card = [
         title: 'Case Study 2',
         description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'
     },
-    {
-        id: 2,
-        link: '/',
-        imgSrc: 'https://via.placeholder.com/1000',
-        imgAlt: 'Image Description 2', 
-        title: 'Case Study 3',
-        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
-    }
 ]
 
 export default function CaseStudies() {

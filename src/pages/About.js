@@ -14,15 +14,15 @@ export default function Blog() {
 
                 <h2>About</h2>
 
-                <img src="https://gabegonzaga.io/assets/gabriel-bw.jpg" alt="Gabriel Gonzaga black and white" />
+                <img src="https://pxlbypxl.com/wp-content/uploads/2020/01/hacker.png" alt="black hoodie hacker" />
 
-                <p>Hi, I'm Gabriel. I believe <em>technology and information</em> is a platform to give individuals power and knowledge to transcend and simplify lives. I'm driven to educate and provide easy to use products to have a positive impact for both information consumers, businesses, and startups.</p>
+                <p>I believe <em>Information Technology</em> is a great platform to give individuals power and knowledge. It is able to transcend and simplify lives.</p>
 
-                <p>In the past 3 years, I have been very fortunate to use both my technical and creative abilities. I have helped marketing teams, businesses, and startups to provide users with simple effective information design to generate leads, internal growth, and revenue.</p>
+                <p>In the past 3 years, I have helped creative marketing teams, businesses, and startups with web development and design.</p>
 
-                <p>Before learning web development in 2016, I worked in the medical field assisting operating room teams save lives. I have a natural empathy to have a positive impact anyway possible.</p>
+                <p>Before 2016, I worked in the medical field assisting operating room teams save lives. I have a natural empathy towards people and want to have a positive impact anyway I can.</p>
 
-                <p>Aside from work, I love music, airplanes, animals, and the pacific ocean. I'm currently based in Irvine and raised in Garden Grove, CA.</p>
+                <p>Aside from all this - I like music, airplanes, animals, and the ocean.</p>
 
                 <p>Thanks for visiting.</p>
 
