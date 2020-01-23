@@ -12,19 +12,19 @@ export default function Blog() {
 
             <section className="about">
 
-                <h2>About</h2>
+                <h2>About <span role="img" aria-label="globe">🌎</span></h2>
 
-                <img src="https://pxlbypxl.com/wp-content/uploads/2020/01/hacker.png" alt="black hoodie hacker" />
+                <img style={{ marginBottom: 30 }} src="https://pxlbypxl.com/wp-content/uploads/2020/01/hacker.png" alt="black hoodie hacker" />
 
-                <p>I believe <em>Information Technology</em> is a great platform to give individuals power and knowledge. It is able to transcend and simplify lives.</p>
+                <p>I believe <em>Information Technology</em> is a great platform to give individuals power and knowledge that's able to transcend and simplify lives.</p>
 
                 <p>In the past 3 years, I have helped creative marketing teams, businesses, and startups with web development and design.</p>
 
                 <p>Before 2016, I worked in the medical field assisting operating room teams save lives. I have a natural empathy towards people and want to have a positive impact anyway I can.</p>
 
-                <p>Aside from all this - I like music, airplanes, animals, and the ocean.</p>
+                <p>Aside from all this - I like music, airplanes, animals, and the ocean. I'm an INFJ - creative, gentle, and caring.</p>
 
-                <p>Thanks for visiting.</p>
+                <p>Thanks for reading.</p>
 
             </section>
 

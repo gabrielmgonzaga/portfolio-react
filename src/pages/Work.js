@@ -1,23 +1,72 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import { Helmet } from 'react-helmet';
 
 const card = [
     {
         id: 0,
         link: 'https://gabegonzaga.io/writing/addon.html',
-        imgSrc: '',
-        imgAlt: '',
         title: 'AddOn Networks',
-        description: 'Provides computer network upgrades and connectivity hardware. Initially, I was brought on board on a one month contract which extended to 18 months.'
+        role: 'Frontend Development',
+        description: 'AddOn Networks provides computer network upgrades and connectivity hardware. Initially, I was hired for a one month contract which extended to 18 months.',
+        cta: 'Read More'
     },
     {
         id: 1,
         link: 'https://gabegonzaga.io/writing/edco.html',
+        title: 'Edco',
+        role: 'Frontend Development',
+        description: 'Edco is a fundraising platform for K-12 schools. The platform allows parents to raise funds, create team pages, invite friends, and promote their fundraising activities.',
+        cta: 'Read More'
+    },
+    {
+        id: 2,
+        link: 'https://prolineoptions.com',
+        title: 'Proline Options',
+        role: 'Frontend Development',
+        description: 'Proline Options provides computer network hardware and is based out of Chicago. Their web application is built on a VueJS frontend and JavaScript tech stack.',
+        cta: 'Visit Website'
+    },
+    {
+        id: 3,
+        link: 'https://smithandnoble.com',
+        title: 'Smith & Noble',
+        role: 'Frontend Development, Email Marketing',
+        description: 'Smith & Noble provides custom window treatment design and is headquartered in Corona. Their frontend utilizes Smarty PHP template engine.',
+        cta: 'Visit Website'
+    },
+    {
+        id: 4,
+        link: 'https://sourceability.com',
         imgSrc: '',
         imgAlt: '', 
-        title: 'Edco',
-        description: 'Fundraising platform for K-12 schools. The platform allows parents to raise funds, create team pages, invite members, and promote their fundraising activities.'
+        title: 'Sourceability',
+        role: 'Frontend Development',
+        description: 'Sourceability provides computer network hardware products and is based out of Irvine. Their website is built on the Wordpress platform.',
+        cta: 'Visit Website'
+    },
+    {
+        id: 5,
+        link: 'https://pixelmotion.com',
+        title: 'Pixel Motion',
+        role: 'Frontend Support & Maintenance',
+        description: 'Pixel Motion is a digital web agency based out of Irvine and provide marketing solutions for the automotive dealerships. Their clients mainly utilize the Wordpress platform.',
+        cta: 'Visit Website'
+    },
+    {
+        id: 6,
+        link: 'https://acorn-is.com',
+        title: 'Acorn Internet Services',
+        role: 'Frontend Development',
+        description: 'Acorn Internet Services is based out of Colorado Springs and provides web solutions for Bed & Breakfast business owners. Their clients utilize the Wordpress platform.',
+        cta: 'Visit Website'
+    },
+    {
+        id: 7,
+        link: 'https://pxlbypxl.com',
+        title: 'Pxl by Pxl',
+        role: 'Fullstack Development, Vector Illustration',
+        description: 'Pxl by Pxl is a digital design and development studio that provides a platform for web development and online marketing for businesses and consulting professionals.',
+        cta: 'Visit Website'
     },
 ]
 
@@ -30,14 +79,15 @@ export default function CaseStudies() {
                 <title>Gabriel Gonzaga - Work</title>
             </Helmet>
 
-            <h2>Work</h2>
+            <h2>Work <span role="img" aria-label="microscope">🔬</span></h2>
             <div className="work">
                 {card.map(i => 
                     <div className="work-card" key={i.id}>
-                        <a href={i.link}>
+                        <a rel="noopener noreferrer" target="blank" href={i.link}>
                             <h3>{i.title}</h3>
+                            <span>Role: {i.role}</span>
                             <p>{i.description}</p>
-                            <small>Read More...</small>
+                            <small>{i.cta}</small>
                         </a>
                     </div>
                 )}

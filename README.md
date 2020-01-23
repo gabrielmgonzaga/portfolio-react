@@ -1,6 +1,6 @@
-# UX Portfolio
+# Work Portfolio
 
-User Experience portfolio for case studies and writing.
+Work portfolio website.
 
 ## Built With
 

@@ -1,8 +1,7 @@
 import React from 'react';
 import './App.css';
 import {
-  BrowserRouter as Router,
-  Switch,
+  HashRouter,
   Route,
 } from 'react-router-dom';
 
@@ -14,27 +13,25 @@ import Footer from './components/Footer';
 
 function App() {
   return (
-    <Router>
+    <HashRouter>
       <div className="main-wrapper">
           <Nav />
 
           <main>
-            <Switch>    
-                <Route path="/work">
+              <Route path="/work">
                   <Work />
-                </Route>
-                <Route path="/about">
+              </Route>
+              <Route path="/about">
                   <About />
-                </Route>
-                <Route path="/">
+              </Route>
+              <Route exact path="/">
                   <Home />
-                </Route>
-            </Switch>
+              </Route>
           </main>
 
           <Footer />
       </div>
-    </Router>
+    </HashRouter>
   );
 }
 
