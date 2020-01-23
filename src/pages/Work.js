@@ -8,7 +8,7 @@ const card = [
         title: 'AddOn Networks',
         role: 'Frontend Development',
         description: 'AddOn Networks provides computer network upgrades and connectivity hardware. Initially, I was hired for a one month contract which extended to 18 months.',
-        cta: 'Read More'
+        cta: 'Read Case Study'
     },
     {
         id: 1,
@@ -16,7 +16,7 @@ const card = [
         title: 'Edco',
         role: 'Frontend Development',
         description: 'Edco is a fundraising platform for K-12 schools. The platform allows parents to raise funds, create team pages, invite friends, and promote their fundraising activities.',
-        cta: 'Read More'
+        cta: 'Read Case Study'
     },
     {
         id: 2,
@@ -49,19 +49,11 @@ const card = [
         link: 'https://pixelmotion.com',
         title: 'Pixel Motion',
         role: 'Frontend Support & Maintenance',
-        description: 'Pixel Motion is a digital web agency based out of Irvine and provide marketing solutions for the automotive dealerships. Their clients mainly utilize the Wordpress platform.',
+        description: 'Pixel Motion is a digital web agency based out of Irvine. They provide marketing solutions for automotive dealerships and their clients use the Wordpress platform.',
         cta: 'Visit Website'
     },
     {
         id: 6,
-        link: 'https://acorn-is.com',
-        title: 'Acorn Internet Services',
-        role: 'Frontend Development',
-        description: 'Acorn Internet Services is based out of Colorado Springs and provides web solutions for Bed & Breakfast business owners. Their clients utilize the Wordpress platform.',
-        cta: 'Visit Website'
-    },
-    {
-        id: 7,
         link: 'https://pxlbypxl.com',
         title: 'Pxl by Pxl',
         role: 'Fullstack Development, Vector Illustration',
