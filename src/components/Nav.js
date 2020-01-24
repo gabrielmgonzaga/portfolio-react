@@ -7,6 +7,7 @@ export default function Nav() {
             <h1>
                 <Link to="/">Gabriel Gonzaga</Link>
             </h1>
+
             <ul>
                 <li>
                     <Link to="/work">Work</Link>

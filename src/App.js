@@ -1,5 +1,7 @@
 import React from 'react';
-import './App.css';
+import './App.scss';
+import './components/Nav.scss';
+import './components/Footer.scss';
 import {
   HashRouter,
   Route,
