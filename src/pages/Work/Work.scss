@@ -1,0 +1,67 @@
+/*================================
+             Work
+================================*/
+.work {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 60px;
+}
+
+.work-card {
+  flex: 0 50%;
+  margin-bottom: 45px;
+  padding-right: 60px;
+  box-sizing: border-box;
+
+  a {
+    text-decoration: none;
+    transition: all .2s ease;
+  }
+  
+  h3 {
+    margin-bottom: 0;
+    display: inline-block;
+    font-size: 26px;
+    color: #2D84FF;
+  }
+  
+  h3:hover {
+    text-decoration: underline;
+  }
+  
+  span {
+    margin-bottom: 10px;
+    display: block;
+    color: #aaa;
+    font-size: 16px;
+  }
+  
+  p {
+    margin-top: 0;
+    line-height: 1.4;
+    font-size: 20px;
+  }
+  
+  small {
+    font-weight: 500;
+    font-size: 16px;
+  }
+  
+  small:hover {
+    color: #2D84FF;
+    text-decoration: underline;
+    transition: .3s ease;
+  }
+}
+
+/* > 750px 📱*/
+@media only screen and (max-width : 750px) {
+  .work img {
+    width: 100%;
+  }
+
+  .work-card {
+    flex: 0 100%;
+    padding: 0;
+  }
+}

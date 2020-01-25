@@ -1,4 +1,5 @@
 import React from 'react';
+import './About.scss';
 import { Helmet } from 'react-helmet';
 
 export default function Blog() {
@@ -7,7 +8,7 @@ export default function Blog() {
             <Helmet>
                 <meta charSet="utf-8" />
                 <meta name="description" content="Gabriel Gonzaga User Experience Profile" />
-                <title>Gabriel Gonzaga - About</title>
+                <title>About - Gabriel Gonzaga</title>
             </Helmet>
 
             <section className="about">
@@ -22,7 +23,7 @@ export default function Blog() {
 
                 <p>Before 2016, I worked in the medical field assisting operating room teams save lives. I have a natural empathy towards people and want to have a positive impact anyway I can.</p>
 
-                <p>Aside from all this - I like music, airplanes, animals, and the ocean. I'm an INFJ - creative, gentle, and caring.</p>
+                <p>Aside from all this - I like music, airplanes, animals, the ocean, and family. I'm an INFJ - creative, gentle, and caring.</p>
 
                 <p>Thanks for reading.</p>
 

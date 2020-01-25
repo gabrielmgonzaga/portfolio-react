@@ -1,4 +1,5 @@
 import React from 'react';
+import  './Work.scss';
 import { Helmet } from 'react-helmet';
 
 const card = [
@@ -7,8 +8,8 @@ const card = [
         link: 'https://gabegonzaga.io/writing/addon.html',
         title: 'AddOn Networks',
         role: 'Frontend Development',
-        description: 'AddOn Networks provides computer network upgrades and connectivity hardware. Initially, I was hired for a one month contract which extended to 18 months.',
-        cta: 'Read Case Study'
+        description: 'AddOn Networks provides quality computer network upgrades and connectivity hardware upgrades. Initially, I was hired for a one month contract which extended to 18 months.',
+        cta: 'Read More'
     },
     {
         id: 1,
@@ -16,7 +17,7 @@ const card = [
         title: 'Edco',
         role: 'Frontend Development',
         description: 'Edco is a fundraising platform for K-12 schools. The platform allows parents to raise funds, create team pages, invite friends, and promote their fundraising activities.',
-        cta: 'Read Case Study'
+        cta: 'Read More'
     },
     {
         id: 2,
@@ -68,7 +69,7 @@ export default function CaseStudies() {
             <Helmet>
                 <meta charSet="utf-8" />
                 <meta name="description" content="Gabriel Gonzaga User Experience Work" />
-                <title>Gabriel Gonzaga - Work</title>
+                <title>Work - Gabriel Gonzaga</title>
             </Helmet>
 
             <h2>Work <span role="img" aria-label="microscope">🔬</span></h2>
@@ -77,9 +78,9 @@ export default function CaseStudies() {
                     <div className="work-card" key={i.id}>
                         <a rel="noopener noreferrer" target="blank" href={i.link}>
                             <h3>{i.title}</h3>
-                            <span>Role: {i.role}</span>
+                            <div><span>Role: {i.role}</span></div>
                             <p>{i.description}</p>
-                            <small>{i.cta}</small>
+                            <small>{i.cta} →</small>
                         </a>
                     </div>
                 )}

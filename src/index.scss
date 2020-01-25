@@ -16,11 +16,11 @@ body {
 
 main {
   padding: 0 30px 120px;
-  line-height: 1.8;
+  line-height: 1.6;
 }
 
 h2 {
-  font-size: 48px;
+  font-size: 44px;
 }
 
 a {
@@ -39,7 +39,7 @@ img {
   width: 100%;
 }
 
-/* < 500px 📱*/
+/* 📱*/
 @media only screen and (max-width : 500px) {
   h2 {
     font-size: 38px;
@@ -49,4 +49,3 @@ img {
     font-size: 20px;
   }
 }
-
