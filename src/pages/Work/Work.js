@@ -53,14 +53,6 @@ const card = [
         description: 'Pixel Motion is a digital web agency based out of Irvine. They provide marketing solutions for automotive dealerships and their clients use the Wordpress platform.',
         cta: 'Visit Website'
     },
-    {
-        id: 6,
-        link: 'https://pxlbypxl.com',
-        title: 'Pxl by Pxl',
-        role: 'Fullstack Development, Vector Illustration',
-        description: 'Pxl by Pxl is a digital design and development studio that provides a platform for web development and online marketing for businesses and consulting professionals.',
-        cta: 'Visit Website'
-    },
 ]
 
 export default function CaseStudies() {
