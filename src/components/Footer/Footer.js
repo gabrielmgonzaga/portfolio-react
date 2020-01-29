@@ -11,9 +11,9 @@ export default function Footer() {
                 <li>
                     <a rel="noopener noreferrer" target="_blank" href="https://github.com/gabrielmgonzaga">Github</a>
                 </li>
-                <li>
+                {/* <li>
                     <a rel="noopener noreferrer" target="_blank" href="https://dribbble.com/ggonzaga">Dribbble</a>
-                </li>
+                </li> */}
             </ul>
         </footer>
     )

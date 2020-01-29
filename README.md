@@ -1,10 +1,10 @@
-# Work Portfolio
+# Work 
 
-Work portfolio website.
+Work website.
 
 ## Built With
 
-* [ReactJS](https://reactjs.org/) - JavaScript library for building user interfaces
+* [ReactJS](https://reactjs.org/)
 
 ## Authors
 
