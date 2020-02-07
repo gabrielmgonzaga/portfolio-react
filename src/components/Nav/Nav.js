@@ -6,17 +6,19 @@ export default function Nav() {
     return (
         <nav>
             <h1>
-                <Link to="/">Gabriel Gonzaga</Link>
+                <Link to="/">Gabe Gonzaga</Link>
             </h1>
 
-            <ul>
-                <li>
-                    <Link to="/work">Work</Link>
-                </li>
-                <li>
-                    <Link to="/about">About</Link>
-                </li>
-            </ul>
+            {/*
+              <ul>
+                  <li>
+                      <Link to="/work">Work</Link>
+                  </li>
+                  <li>
+                      <Link to="/about">About</Link>
+                  </li>
+              </ul>
+            */}
         </nav>
     )
 }
