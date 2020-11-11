@@ -9,7 +9,7 @@ export default function Nav() {
                 <Link to="/">Gabe Gonzaga</Link>
             </h1>
 
-            {/*
+            {
               <ul>
                   <li>
                       <Link to="/work">Work</Link>
@@ -18,7 +18,7 @@ export default function Nav() {
                       <Link to="/about">About</Link>
                   </li>
               </ul>
-            */}
+            }
         </nav>
     )
 }

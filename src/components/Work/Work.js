@@ -8,7 +8,7 @@ const card = [
         link: 'https://gabegonzaga.io/writing/addon.html',
         title: 'AddOn Networks',
         role: 'Frontend Development',
-        description: 'AddOn Networks provides quality computer network upgrades and connectivity hardware upgrades. Initially, I was hired for a one month contract which extended to 18 months.',
+        description: 'AddOn Networks provides quality computer network upgrades and connectivity hardware upgrades. Initially, I was hired for a one month contract which extended close to two years.',
         cta: 'Read More'
     },
     {
@@ -39,7 +39,7 @@ const card = [
         id: 4,
         link: 'https://sourceability.com',
         imgSrc: '',
-        imgAlt: '', 
+        imgAlt: '',
         title: 'Sourceability',
         role: 'Frontend Development',
         description: 'Sourceability provides computer network hardware products and is based out of Irvine. Their website is built on the Wordpress platform.',
@@ -66,7 +66,7 @@ export default function CaseStudies() {
 
             <h2>Work <span role="img" aria-label="microscope">🔬</span></h2>
             <div className="work">
-                {card.map(i => 
+                {card.map(i =>
                     <div className="work-card" key={i.id}>
                         <a rel="noopener noreferrer" target="blank" href={i.link}>
                             <h3>{i.title}</h3>
