@@ -5,7 +5,7 @@ import { Helmet } from 'react-helmet';
 const card = [
     {
         id: 0,
-        link: 'https://gabegonzaga.io/writing/addon.html',
+        link: 'https://gabegonzaga.io/addon',
         title: 'AddOn Networks',
         role: 'Frontend Development',
         description: 'AddOn Networks provides quality computer network upgrades and connectivity hardware upgrades. Initially, I was hired for a one month contract which extended close to two years.',
@@ -13,7 +13,7 @@ const card = [
     },
     {
         id: 1,
-        link: 'https://gabegonzaga.io/writing/edco.html',
+        link: 'https://gabegonzaga.io/edco',
         title: 'Edco',
         role: 'Frontend Development',
         description: 'Edco is a fundraising platform for K-12 schools. The platform allows parents to raise funds, create team pages, invite friends, and promote their fundraising activities.',
