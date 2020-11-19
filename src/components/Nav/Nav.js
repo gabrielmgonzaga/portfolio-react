@@ -6,7 +6,7 @@ export default function Nav() {
     return (
         <nav>
             <h1>
-                <Link to="/">Gabe Gonzaga</Link>
+                <Link to="/">GG</Link>
             </h1>
 
             {

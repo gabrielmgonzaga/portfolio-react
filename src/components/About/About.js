@@ -19,13 +19,6 @@ export default function Blog() {
                 <p>Aside from work, I live for music, nature, animals, and family. I'm an INFJ and we are creative, gentle, and caring.</p>
                 <p>Thanks for reading!</p>
             </section>
-
-            <div className="quote">
-                <p><em>"Simplicity is the ultimate sophistication"</em></p>
-                <p>
-                  <small>- Leonardo da Vinci</small>
-                </p>
-            </div>
         </div>
     )
 }

@@ -12,11 +12,16 @@ export default function Home() {
                 <title>Home - Gabe Gonzaga</title>
             </Helmet>
 
-            <h1>Hi, I'm Gabe <span role="img" aria-label="high-five">🤙</span></h1>
+            <h1>Gabe Gonzaga</h1>
 
             <p>
-              I have three years experience developing, designing, and creating digital content for web and social media. I'm a solution driven Web Designer working out of Irvine, CA.
+              I'm a hybrid Web Designer/Developer with three years experience creating digital web content.
+               Currently studying UX Design at UCLA extension. Focused on solving user and business problems with a human centered approach.
             </p>
+
+            <br></br>
+
+            <Link className="button" to="/work">See Work</Link>
         </div>
     )
 }
