@@ -8,7 +8,7 @@ const card = [
         link: 'https://gabegonzaga.io/addon',
         title: 'AddOn Networks',
         role: 'Frontend Development',
-        description: 'AddOn Networks provides quality computer network upgrades and connectivity hardware upgrades. Initially, I was hired for a one month contract which extended close to two years.',
+        description: 'At AddOn, I supported the marketing department by managing and coordinating a dev team from Kazakhstan. We developed features for internal sales flow tracking, and created web media for partner companies. Initially, I was hired for a one month contract.',
         cta: 'Read More'
     },
     {
@@ -16,7 +16,7 @@ const card = [
         link: 'https://gabegonzaga.io/edco',
         title: 'Edco',
         role: 'Frontend Development',
-        description: 'Edco is a fundraising platform for K-12 schools. The platform allows parents to raise funds, create team pages, invite friends, and promote their fundraising activities.',
+        description: 'Edco is a fundraising platform for K-12 schools. I worked closely with a project manager to update, cleanup, and debug CSS Bootstrap code. I restyled landing pages, forms, and content to brand guidelines and assisted with the Edco platform launch, September 2019.',
         cta: 'Read More'
     },
     {
@@ -24,7 +24,7 @@ const card = [
         link: 'https://prolineoptions.com',
         title: 'Proline Options',
         role: 'Frontend Development',
-        description: 'Proline Options provides computer network hardware and is based out of Chicago. Their web application is built on a VueJS frontend and JavaScript tech stack.',
+        description: 'Proline Options is a partner company of AddOn Networks. I coordinated and assisted their marketing team and managed the website launch. I developed frontend landing pages, widgets, tabs, and web media.',
         cta: 'Visit Website'
     },
     {
@@ -32,27 +32,9 @@ const card = [
         link: 'https://smithandnoble.com',
         title: 'Smith & Noble',
         role: 'Frontend Development, Email Marketing',
-        description: 'Smith & Noble provides custom window treatment design and is headquartered in Corona. Their frontend utilizes Smarty PHP template engine.',
+        description: 'Smith & Noble provides custom window design and is based in Corona, CA. I worked with the marketing team developing landing pages, analyzing A/B tests, conversions, and supported creative email campaigns.',
         cta: 'Visit Website'
-    },
-    {
-        id: 4,
-        link: 'https://sourceability.com',
-        imgSrc: '',
-        imgAlt: '',
-        title: 'Sourceability',
-        role: 'Frontend Development',
-        description: 'Sourceability provides computer network hardware products and is based out of Irvine. Their website is built on the Wordpress platform.',
-        cta: 'Visit Website'
-    },
-    {
-        id: 5,
-        link: 'https://pixelmotion.com',
-        title: 'Pixel Motion',
-        role: 'Frontend Support & Maintenance',
-        description: 'Pixel Motion is a digital web agency based out of Irvine. They provide marketing solutions for automotive dealerships and their clients use the Wordpress platform.',
-        cta: 'Visit Website'
-    },
+    }
 ]
 
 export default function CaseStudies() {
@@ -76,6 +58,9 @@ export default function CaseStudies() {
                         </a>
                     </div>
                 )}
+            </div>
+            <div className="moreProjects">
+              <a className="button" href="https://github.com/gabrielmgonzaga" target="blank">See Github Projects →</a>
             </div>
         </div>
     )

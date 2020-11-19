@@ -14,9 +14,9 @@ export default function Blog() {
             <section className="about">
                 <h2>About <span role="img" aria-label="globe">🌎</span></h2>
 
-                <p>In the past 3 years, I've assisted creative marketing teams, businesses, and startups with web development and design.</p>
-                <p>Before 2016, I worked in the medical field assisting operating room teams save lives. I have a natural empathy towards people and want to have a positive impact anyway I can.</p>
-                <p>Aside from work, I live for music, nature, animals, and family. I'm an INFJ and we are creative, gentle, and caring.</p>
+                <p>In the past 3 years, I assisted creative marketing teams, businesses, and stakeholders with web design and development.</p>
+                <p>Before, I worked at UC Irvine medical center assisting operating room teams save lives. I have a natural empathy towards people and aim to be a positive influence to those around me.</p>
+                <p>Aside from work, I live for music, nature, animals, and family.</p>
                 <p>Thanks for reading!</p>
             </section>
         </div>

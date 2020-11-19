@@ -10,18 +10,18 @@ nav {
   h1 {
     line-height: .8;
   }
-  
+
   h1 a {
     color: #333;
     font-size: 20px;
     font-weight: 500;
     text-decoration: none;
   }
-  
+
   h1 a:hover {
     color: #2D84FF;
   }
-  
+
   ul  {
     display: flex;
 
@@ -34,7 +34,7 @@ nav {
         text-decoration: none;
         transition: all .2s;
       }
-      
+
       a:hover {
         color: #2D84FF;
         cursor: pointer;
@@ -45,11 +45,5 @@ nav {
 
 /*======= 📱< 500px =======*/
 @media screen and (max-width: 500px) {
-  nav {
-    flex-direction: column;
 
-    ul {
-      padding-left: 0;
-    }
-  }  
 }
