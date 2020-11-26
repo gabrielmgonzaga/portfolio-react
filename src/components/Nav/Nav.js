@@ -12,10 +12,10 @@ export default function Nav() {
             {
               <ul className="nav">
                   <li>
-                      <Link to="/work">Work</Link>
+                    <Link to="/work">Work</Link>
                   </li>
                   <li>
-                    <a href="https://gabegonzaga.io/writing">Blog</a>
+                    <Link to="/posts">Blog</Link>
                   </li>
               </ul>
             }
