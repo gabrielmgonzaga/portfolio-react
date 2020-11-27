@@ -1,6 +1,7 @@
 const Blog = [
   {
     id: 'First-Blog-Post',
+    title: 'First Blog Post',
     date: 'November 25, 2020',
     content: [
       {

@@ -1,0 +1,30 @@
+/*================================
+              Posts
+================================*/
+.posts {
+  a {
+    margin: 15px 0;
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    background: rgb(249,249,249);
+    border-radius: 4px;
+    text-decoration: none;
+    transition: .3s;
+
+    .title {
+      font-size: 20px;
+    }
+
+    .date {
+      display: block;
+      font-size: 16px;
+    }
+  }
+
+  a:hover {
+    transform: translateY(-2px);
+    background: rgb(246,246,246);
+    color: #2D84FF;
+  }
+}
