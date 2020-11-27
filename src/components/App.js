@@ -6,6 +6,8 @@ import ReactGA from 'react-ga';
 import Nav from './Nav/Nav';
 import Work from './Work/Work';
 import About from './About/About';
+import Posts from './Posts/Posts';
+import Post from './Post/Post';
 import Home from './Home/Home';
 import Footer from './Footer/Footer';
 
@@ -19,15 +21,11 @@ function App() {
           <Nav />
 
           <main>
-              <Route path="/work">
-                  <Work />
-              </Route>
-              <Route path="/about">
-                  <About />
-              </Route>
-              <Route exact path="/">
-                  <Home />
-              </Route>
+              <Route path="/work" component={Work} />
+              <Route path="/about" component={About} />
+              <Route exact path="/posts" component={Posts} />
+              <Route path={`/posts/:postId`} component={Post} />
+              <Route exact path="/" component={Home} />
           </main>
 
           <Footer />
