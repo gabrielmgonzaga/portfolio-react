@@ -1,6 +1,6 @@
 import React from 'react';
 import './Posts.scss';
-import Blog from './Blog.js';
+import Blog from '../Data/Blog.js';
 import { Link } from 'react-router-dom';
 
 export default function Posts() {

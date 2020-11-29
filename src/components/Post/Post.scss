@@ -1,0 +1,28 @@
+/*================================
+            Single Post
+================================*/
+.post {
+  .intro {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .header-intro h2 {
+    margin-bottom: 0;
+  }
+
+  .sub-intro div h3 {
+    font-size: 16px;
+    margin-bottom: 0;
+    border-bottom: 1px solid #eee;
+  }
+  .sub-intro div p {
+    margin: 7px 0;
+    line-height: 1;
+    font-size: 14px;
+  }
+
+  .content ul {
+    list-style: none;
+  }
+}

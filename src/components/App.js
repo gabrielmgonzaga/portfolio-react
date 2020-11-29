@@ -2,7 +2,6 @@ import React from 'react';
 import '../index.scss';
 import { HashRouter, Route } from 'react-router-dom';
 import ReactGA from 'react-ga';
-
 import Nav from './Nav/Nav';
 import Work from './Work/Work';
 import About from './About/About';
