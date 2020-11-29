@@ -13,16 +13,16 @@ export default function Home() {
                 <title>{home.name}</title>
             </Helmet>
 
-            <h1>{home.name}</h1>
+            <div className="header">
+              <img src={home.img.url} alt={home.img.alt} />
+              <h1>{home.name}</h1>
+            </div>
 
             <p>
-              {home.one} <br />
-              {home.two} 
+              {home.one} Learn more <Link to="/about">about</Link> me.
+              <br/><br/>
+              {home.two}
             </p>
-
-            <br />
-
-            <Link className="button" to="/work">See Work</Link>
         </div>
     )
 }

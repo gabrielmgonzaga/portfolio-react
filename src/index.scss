@@ -1,6 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 
+$blue: #2D84FF;
+$blue-dark: #0067F9;
+$orange: #FFA82D;
 
 body {
   margin: 0 auto;
@@ -37,8 +40,13 @@ h2 {
 }
 
 a {
+  text-decoration: none;
   transition: .3s all;
-  color: #444;
+  color: $blue;
+}
+
+a:hover {
+  color: $blue-dark;
 }
 
 p {
@@ -111,8 +119,15 @@ hr {
   animation-name: fadeIn;
 }
 
+/*========================================
+          Media Queries
+ ========================================*/
+/* Desktop view 💻 */
+@media only screen and (min-width : 500px) {
 
-/* 📱*/
+}
+
+/* Smartphone view 📱*/
 @media only screen and (max-width : 500px) {
   h2 {
     font-size: 38px;

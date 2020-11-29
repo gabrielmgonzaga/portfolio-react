@@ -1,10 +1,6 @@
-# Work
+# Work 📓
 
 Work blog - https://ggonzaga.com
-
-## Authors
-
-* **Gabe Gonzaga**
 
 ## License
 

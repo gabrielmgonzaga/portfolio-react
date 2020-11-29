@@ -5,8 +5,8 @@ const Home =
       alt: 'Gabe Gonzaga'
     },
     name: 'Gabe Gonzaga',
-    one: 'I\'m a hybrid Web Designer/Developer currently studying UX Design at UCLA.',
-    two: 'Thanks for Stopping by!'
+    one: 'I\'m a Web Designer/Developer working out of Irvine, CA. Currently studying UX Design at UCLA.',
+    two: 'Thanks for visiting!'
   }
 
 export default Home
