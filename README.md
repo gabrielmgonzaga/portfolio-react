@@ -1,14 +1,10 @@
-# Work 
+# Work
 
-Work website.
-
-## Built With
-
-* [ReactJS](https://reactjs.org/)
+Work blog - https://ggonzaga.com
 
 ## Authors
 
-* **Gabriel Gonzaga**
+* **Gabe Gonzaga**
 
 ## License
 
