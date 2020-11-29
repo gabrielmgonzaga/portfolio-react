@@ -1,12 +1,13 @@
 import React from 'react';
-import home from '../Data/Home.js';
 import './Home.scss';
+import home from '../Data/Home';
+import Work from '../Work/Work'
 import { Helmet } from 'react-helmet';
 import { Link } from 'react-router-dom';
 
 export default function Home() {
     return (
-        <div className="home animate fadeIn">
+        <div className="home">
             <Helmet>
                 <meta charSet="utf-8" />
                 <meta name="description" content="Gabriel Gonzaga User Experience Portfolio" />
@@ -23,6 +24,10 @@ export default function Home() {
               <br/><br/>
               {home.two}
             </p>
+
+            <div className="cards animateTwo fadeIn">
+              <Work />
+            </div>
         </div>
     )
 }

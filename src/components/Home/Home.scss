@@ -2,18 +2,18 @@
             Home
 ================================*/
 .home {
-  padding-top: 60px;
+  padding-top: 45px;
 
   .header {
     display: flex;
     align-items: center;
 
     h1 {
+      padding-left: 15px;
       line-height: 1.1;
     }
 
     img {
-      padding-right: 15px;
       width: 75px;
       height: 75px;
       border-radius: 60px;
