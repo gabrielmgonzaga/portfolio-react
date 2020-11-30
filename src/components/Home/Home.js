@@ -15,14 +15,18 @@ export default function Home() {
             </Helmet>
 
             <div className="header">
-              <img src={home.img.url} alt={home.img.alt} />
+              <img
+                src={home.img.url}
+                alt={home.img.alt}
+                style={{ borderRadius: 60, width: 80, height: 80 }}
+              />
               <h1>{home.name}</h1>
             </div>
 
             <p>
-              {home.one} Learn more <Link to="/about">about</Link> me.
+              {home.pitch}
               <br/><br/>
-              {home.two}
+              Learn more → <Link to="/about">About</Link>
             </p>
 
             <div className="cards animateTwo fadeIn">

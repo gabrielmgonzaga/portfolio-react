@@ -10,6 +10,9 @@ export default function Footer() {
                   <Link to="/about">About</Link>
                 </li>
                 <li>
+                  <Link to="/posts">Posts</Link>
+                </li>
+                <li>
                     <a rel="noopener noreferrer" target="_blank" href="https://linkedin.com/in/gabriel-gonzaga">LinkedIn</a>
                 </li>
                 <li>
