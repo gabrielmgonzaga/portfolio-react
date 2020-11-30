@@ -1,12 +1,25 @@
 import React from 'react';
 import './Post.scss';
 import Blog from '../Data/Blog.js';
+import { Link } from "react-router-dom";
+import { Helmet } from 'react-helmet';
 
 export default function Post({ match }) {
   const blog = Blog.find(({ id }) => id == match.params.postId)
 
   return (
     <div className="post">
+      <Helmet>
+          <meta charSet="utf-8" />
+          <meta name="description" content="Posts from Gabe Gonzaga" />
+          <title>{blog.title} - Gabe Gonzaga</title>
+      </Helmet>
+
+      <nav style={{ paddingTop: 15, paddingBottom: 15 }}>
+        <div>
+          <Link to="/posts">← Back</Link>
+        </div>
+      </nav>
       <div>
         { blog.img === '' ? null : <img src={blog.img.url} alt={blog.img.alt} /> }
       </div>
@@ -32,7 +45,7 @@ export default function Post({ match }) {
               <h3>Team</h3>
               { Array.isArray(team) ? team.map(team => <p>{team}</p>) : null }
               </div>
-              
+
               <div>
                 <h3>Skills</h3>
                 { Array.isArray(skills) ? skills.map(skills => <p>{skills}</p>) : null }

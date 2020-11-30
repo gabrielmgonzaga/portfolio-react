@@ -1,28 +1,37 @@
 import React from 'react';
-import home from '../Data/Home.js';
 import './Home.scss';
+import home from '../Data/Home';
+import Work from '../Work/Work'
 import { Helmet } from 'react-helmet';
 import { Link } from 'react-router-dom';
 
 export default function Home() {
     return (
-        <div className="home animate fadeIn">
+        <div className="home">
             <Helmet>
                 <meta charSet="utf-8" />
                 <meta name="description" content="Gabriel Gonzaga User Experience Portfolio" />
                 <title>{home.name}</title>
             </Helmet>
 
-            <h1>{home.name}</h1>
+            <div className="header">
+              <img
+                src={home.img.url}
+                alt={home.img.alt}
+                style={{ borderRadius: 60, width: 80, height: 80 }}
+              />
+              <h1>{home.name}</h1>
+            </div>
 
             <p>
-              {home.one} <br />
-              {home.two} 
+              {home.pitch}
+              <br/><br/>
+              Learn more → <Link to="/about">About</Link>
             </p>
 
-            <br />
-
-            <Link className="button" to="/work">See Work</Link>
+            <div className="cards animateTwo fadeIn">
+              <Work />
+            </div>
         </div>
     )
 }

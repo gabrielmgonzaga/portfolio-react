@@ -1,21 +1,21 @@
 import React from 'react';
 import './Nav.scss';
-import {
-  Link
-} from "react-router-dom";
+import { Link } from "react-router-dom";
 
 export default function Nav() {
+
   return (
     <nav>
-      <h1>
-        <Link to="/">GG</Link>
-      </h1>
+      <div>
+        <Link to="/">← Home</Link>
+      </div>
 
       {<ul className="nav">
           <li>
-            <Link to="/work">Work</Link></li>
+            <Link to="/about">About</Link>
+          </li>
           <li>
-            <a href="https://gabegonzaga.io/writing">Blog</a>
+          <Link Link to="/posts">Posts</Link>
           </li>
         </ul>}
     </nav>

@@ -2,70 +2,88 @@
              Work
 ================================*/
 .work {
+  margin: 45px 0 60px;
   display: flex;
   flex-wrap: wrap;
-  margin-bottom: 60px;
 }
 
 .work-card {
   flex: 0 50%;
-  margin-bottom: 45px;
-  padding-right: 60px;
+  margin-bottom: 30px;
+  padding: 10px;
   box-sizing: border-box;
 
-  a {
-    text-decoration: none;
-    transition: all .2s ease;
+  img {
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    transition: .3s ease;
+  }
+
+  .work-description {
+    margin-top: -8px;
+    padding: 30px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    box-shadow: 0px 10px 40px -10px rgba(0, 64, 128, 0.2);
+    transition: .3s ease;
   }
 
   h3 {
-    margin-bottom: 0;
-    display: inline-block;
-    font-size: 26px;
-    color: #2D84FF;
-  }
-
-  h3:hover {
-    text-decoration: underline;
+    margin: 0;
+    color: #fff;
   }
 
   span {
     margin-bottom: 10px;
     display: block;
-    color: #aaa;
     font-size: 16px;
-  }
-
-  p {
-    margin-top: 0;
-    line-height: 1.4;
-    font-size: 20px;
+    color: #fff;
   }
 
   small {
-    font-weight: 500;
-    font-size: 16px;
-  }
-
-  small:hover {
-    color: #2D84FF;
-    text-decoration: underline;
-    transition: .3s ease;
+    font-size: 14px;
+    color: #fff;
   }
 }
 
-.moreProjects {
-  margin-bottom: 60px;
+.work-card:nth-child(even) {
+  margin-top: -45px;
 }
 
-/* > 750px 📱*/
-@media only screen and (max-width : 750px) {
-  .work img {
-    width: 100%;
+.work-card:hover .work-description,
+.work-card:hover img {
+  transition: .3s ease;
+  transform: translateY(-5px);
+}
+
+.addon {
+  background: #1E52A1;
+}
+
+.edco {
+  background: #F06D40;
+}
+
+.proline {
+  background: #C91417;
+}
+
+.sn {
+  background: #21355A;
+}
+
+/* Smartphone view 📱*/
+@media only screen and (max-width : 600px) {
+  .work {
+    margin-top: 30px;
   }
 
   .work-card {
-    flex: 0 100%;
-    padding: 0;
+    flex: auto;
+    margin-bottom: 0;
+  }
+
+  .work-card:nth-child(even) {
+    margin-top: 0;
   }
 }

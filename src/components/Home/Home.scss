@@ -2,22 +2,20 @@
             Home
 ================================*/
 .home {
+  padding-top: 45px;
+
+  .header {
+    display: flex;
+    align-items: center;
+
+    h1 {
+      font-size: 30px;
+      line-height: 1.2;
+    }
+  }
+
   p {
-    max-width: 680px;
-    line-height: 1.8;
-  }
-}
-
-/* 💻 */
-@media only screen and (min-width : 500px) {
-  .home {
-    padding-top: 90px;
-  }
-}
-
-/* 📱 */
-@media only screen and (max-width : 500px) {
-  .home {
-    padding: 30px 0 120px;
+    max-width: 580px;
+    line-height: 1.6;
   }
 }
