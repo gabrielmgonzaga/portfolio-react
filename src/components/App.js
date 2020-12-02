@@ -3,6 +3,7 @@ import '../index.scss';
 import { HashRouter, Route } from 'react-router-dom';
 import ReactGA from 'react-ga';
 import Work from './Work/Work';
+import WorkPost from './WorkPost/WorkPost';
 import About from './About/About';
 import Posts from './Posts/Posts';
 import Post from './Post/Post';
@@ -17,7 +18,8 @@ function App() {
     <HashRouter>
       <div className="main-wrapper">
           <main>
-              <Route path="/work" component={Work} />
+              <Route exact path="/work" component={Work} />
+              <Route path={`/work/:workId`} component={WorkPost} />
               <Route path="/about" component={About} />
               <Route exact path="/posts" component={Posts} />
               <Route path={`/posts/:postId`} component={Post} />

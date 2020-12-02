@@ -4,13 +4,33 @@
 .post {
   margin-bottom: 60px;
 
-  .intro {
-    display: flex;
-    justify-content: space-between;
+  .header-intro h2 {
+    margin-top: 30px;
   }
 
-  .header-intro h2 {
-    margin-bottom: 0;
+  h2 {
+    margin-top: 60px;
+    margin-bottom: 5px;
+  }
+
+  p {
+    margin-top: 0;
+    margin-bottom: 30px;
+  }
+
+  small {
+    margin-top: 5px;
+    display: block;
+    text-align: center;
+  }
+
+  .sub-intro {
+    margin-bottom: 30px;
+    display: flex;
+  }
+
+  .sub-intro div {
+    margin-right: 60px;
   }
 
   .sub-intro div h3 {
@@ -23,8 +43,11 @@
     line-height: 1;
     font-size: 14px;
   }
+}
 
-  .content ul {
-    list-style: none;
+/* Smartphone view 📱*/
+@media only screen and (max-width : 600px) {
+  .sub-intro {
+
   }
 }

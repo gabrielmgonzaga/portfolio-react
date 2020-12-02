@@ -1,6 +1,7 @@
 import React from 'react';
 import workCard from '../Data/WorkCards';
 import  './Work.scss';
+import { Link } from "react-router-dom";
 import { Helmet } from 'react-helmet';
 
 export default function Work() {
@@ -21,14 +22,14 @@ export default function Work() {
                   img,
                   cta }) =>
                     <div className="work-card animate fadeIn" key={id}>
-                      <a rel="noopener noreferrer" target="blank" href={link}>
+                      <Link to={`/work/${id}`}>
                         <img src={img.url} alt={img.alt} />
                         <div className={`${id} work-description`}>
                           <h3>{title}</h3>
                           <span>Role: {role}</span>
                           <small>{cta} →</small>
                         </div>
-                      </a>
+                      </Link>
                     </div>
                 )}
             </div>

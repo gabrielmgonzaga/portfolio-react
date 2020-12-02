@@ -41,9 +41,9 @@ export default function Post({ match }) {
                 { duration === '' ? null : <p>{duration}</p> }
               </div>
 
-              <div>
-              <h3>Team</h3>
-              { Array.isArray(team) ? team.map(team => <p>{team}</p>) : null }
+              <div className="team">
+                <h3>Team</h3>
+                { Array.isArray(team) ? team.map(team => <p>{team}</p>) : null }
               </div>
 
               <div>
