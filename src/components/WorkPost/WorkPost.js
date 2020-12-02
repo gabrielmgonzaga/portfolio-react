@@ -27,10 +27,11 @@ export default function Post({ match }) {
         role,
         team,
         location }) =>
-          <section className="intro">
+          <section className="intro animate fadeIn">
             <div className="header-intro">
               <h2>{workCard.title}</h2>
-              <p>{workCard.subtitle}</p>
+              <span></span>
+              <h4>{workCard.subtitle}</h4>
             </div>
 
             <div>
@@ -71,7 +72,7 @@ export default function Post({ match }) {
         img,
         listHeading,
         list }) =>
-          <section className="content">
+          <section className="content animate fadeIn">
             { heading === '' ? null : <h2>{heading}</h2> }
 
             { Array.isArray(paragraph) ?
@@ -90,24 +91,24 @@ export default function Post({ match }) {
 
             { img.url === '' ? null :
               <div>
-                <img src={img.url} alt={img.alt} />
                 <small>{img.caption}</small>
+                <img src={img.url} alt={img.alt} />
               </div> }
 
             </section>
       )}
-
-      <div>
-        <p>
-          Visit website → <a href={workCard.link}>{workCard.link}</a>
-        </p>
-      </div>
 
       <br/>
 
       <nav style={{ paddingTop: 15, paddingBottom: 15 }}>
         <div>
           <Link to="/">← Back</Link>
+        </div>
+
+        <div>
+          <p>
+            View website → <a className="button" href={workCard.link} target="_blank" rel="noopener noreferrer">{workCard.title}</a>
+          </p>
         </div>
       </nav>
 

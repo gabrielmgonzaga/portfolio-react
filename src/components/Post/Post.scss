@@ -4,6 +4,12 @@
 .post {
   margin-bottom: 60px;
 
+  .header-intro {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+  }
+
   .header-intro h2 {
     margin-top: 30px;
   }
@@ -19,7 +25,8 @@
   }
 
   small {
-    margin-top: 5px;
+    margin-bottom: 5px;
+    font-weight: bold;
     display: block;
     text-align: center;
   }
@@ -46,8 +53,9 @@
 }
 
 /* Smartphone view 📱*/
-@media only screen and (max-width : 600px) {
-  .sub-intro {
-
+@media only screen and (max-width : 700px) {
+  .sub-intro,
+  .header-intro {
+    flex-direction: column;
   }
 }
