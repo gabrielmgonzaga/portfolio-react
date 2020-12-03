@@ -30,13 +30,13 @@ main {
   line-height: 1.6;
 }
 
-h1, h2, h3 {
+h1, h2, h3, h4 {
   font-weight: bold;
   font-family: 'Montserrat', sans-serif;
 }
 
 h2 {
-  font-size: 30px;
+  font-size: 26px;
 }
 
 a {
@@ -57,6 +57,12 @@ img {
   width: 100%;
 }
 
+.block {
+  display: block;
+  height: 5px;
+  width: 100px;
+}
+
 .button {
   background-color: #2D84FF;
   color: #fff;
@@ -66,6 +72,7 @@ img {
 }
 
 .button:hover {
+  background: $blue-dark;
   color: #fff;
   transform: translateY(-3px);
   box-shadow: 0px 10px 40px -10px rgba(0, 64, 128, 0.2);
@@ -123,12 +130,16 @@ img {
 }
 
 /* Smartphone view 📱*/
-@media only screen and (max-width : 500px) {
+@media only screen and (max-width : 700px) {
   h2 {
-    font-size: 38px;
+    font-size: 24px;
   }
 
   p {
-    font-size: 20px;
+    font-size: 18px;
+  }
+
+  footer ul {
+    justify-content: space-evenly;
   }
 }

@@ -20,40 +20,22 @@ export default function Post({ match }) {
           <Link to="/posts">← Back</Link>
         </div>
       </nav>
+
       <div>
-        { blog.img === '' ? null : <img src={blog.img.url} alt={blog.img.alt} /> }
+        { blog.img === '' ?
+            null :
+              <div>
+                <img src={blog.img.url} alt={blog.img.alt} />
+                <small>{blog.img.caption}</small>
+              </div> }
       </div>
 
-      {blog.intro.map(({
-        img,
-        duration,
-        skills,
-        team }) =>
-          <section className="intro">
-            <div className="header-intro">
-              <h2>{blog.title}</h2>
-              <p>{blog.subtitle}</p>
-            </div>
-
-            <div className="sub-intro">
-              <div>
-                <h3>Duration</h3>
-                { duration === '' ? null : <p>{duration}</p> }
-              </div>
-
-              <div>
-              <h3>Team</h3>
-              { Array.isArray(team) ? team.map(team => <p>{team}</p>) : null }
-              </div>
-
-              <div>
-                <h3>Skills</h3>
-                { Array.isArray(skills) ? skills.map(skills => <p>{skills}</p>) : null }
-              </div>
-
-            </div>
-          </section>
-      )}
+      <section className="intro">
+        <div className="header-intro">
+          <h2>{blog.title}</h2>
+          <p>{blog.subtitle}</p>
+        </div>
+      </section>
 
       {blog.content.map(({
         heading,
@@ -61,14 +43,15 @@ export default function Post({ match }) {
         img,
         list }) =>
           <section className="content">
+            {/* HEADING */}
             { heading === '' ? null : <h2>{heading}</h2> }
 
-            { img.url === '' ? null : <img src={img.url} alt={img.alt} /> }
-
+            {/* PARAGRAPH */}
             { Array.isArray(paragraph) ?
                 paragraph.map(paragraph =>
                   <p>{paragraph}</p>) : null }
 
+            {/* LIST */}
             { Array.isArray(list) ?
               list.map(list =>
                 <ul>
@@ -77,7 +60,9 @@ export default function Post({ match }) {
                   </li>
                 </ul>) : null }
 
-            </section>
+            {/* IMAGE */}
+            { img.url === '' ? null : <img src={img.url} alt={img.alt} /> }
+          </section>
       )}
     </div>
   )

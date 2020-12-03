@@ -21,7 +21,7 @@ export default function About() {
                   <div>
                     <p>In the past 3 years, I've assisted creative marketing teams, businesses, and stakeholders with web design and development.</p>
                     <p>Before, I worked at UC Irvine medical center assisting operating room teams save lives. I have a natural empathy towards people and aim to be a positive influence in the world.</p>
-                    <p>I live to work for music, nature, animals, and family.</p>
+                    <p>I live for music, nature, animals, and family.</p>
                     <p>Thanks for reading!</p>
                   </div>
                 </div>
