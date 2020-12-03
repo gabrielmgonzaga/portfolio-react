@@ -1,7 +1,23 @@
 import addon from '../../images/addon.png'
+import addonLab from '../../images/addon/addon-outside.png'
+import addonChallenges from '../../images/addon/addon-challenges.png'
+import addonGA from '../../images/addon/addon.png'
+import otdrDemographics from '../../images/addon/otdr-demographics.png'
+import otdrCisco from '../../images/addon/otdr-Cisco.png'
+import otdrJumbotron from '../../images/addon/otdr-jumbotron.png'
+import otdrForm from '../../images/addon/otdr-form.png'
+import otdrMobile from '../../images/addon/otdr-mobile-group.png'
+import otdrAnalytics from '../../images/addon/otdr-analytics.png'
+import prolineOptions from '../../images/addon/prolineoptions.png'
+
 import edco from '../../images/edco.png'
+import edcoDesktop from '../../images/edco/edco-desktop.png'
+import edcoBeforeAfter from '../../images/edco/before-after-2.png'
+
 import proline from '../../images/proline.png'
 import sn from '../../images/sn.png'
+
+
 
 const WorkCards = [
     {
@@ -17,7 +33,7 @@ const WorkCards = [
           alt: 'addon logo'
         },
         postImg: {
-          url: 'https://gabegonzaga.io/assets/blog/addon/addon-outside.png',
+          url: addonLab,
           alt: 'AddOn Networks Lab',
           caption: ''
         },
@@ -63,7 +79,7 @@ const WorkCards = [
           {
             heading: 'Research',
             img: {
-              url: 'https://gabegonzaga.io/assets/blog/addon/addon-challenges.png',
+              url: addonChallenges,
               alt: 'Addon Networks smartphone view',
               caption: 'Original Header and Footer View on Smartphones'
             },
@@ -92,7 +108,7 @@ const WorkCards = [
           {
             heading: 'Results',
             img: {
-              url: 'https://gabegonzaga.io/assets/blog/addon/addon.png',
+              url: addonGA,
               alt: 'Google Analytics mobile overview',
               caption: 'Google Analytics mobile overview'
             },
@@ -133,7 +149,7 @@ const WorkCards = [
             listHeading: '',
             list: [],
             img: {
-              url: 'https://gabegonzaga.io/assets/blog/addon/otdr-demographics.png',
+              url: otdrDemographics,
               alt: 'Age and Gender Demographics',
               caption: 'Age and Gender Demographics'
             },
@@ -147,7 +163,7 @@ const WorkCards = [
             listHeading: '',
             list: [],
             img: {
-              url: 'https://gabegonzaga.io/assets/blog/addon/otdr-Cisco.png',
+              url: otdrCisco,
               alt: 'Cisco website',
               caption: 'Cisco website'
             },
@@ -160,7 +176,7 @@ const WorkCards = [
             listHeading: '',
             list: [],
             img: {
-              url: 'https://gabegonzaga.io/assets/blog/addon/otdr-jumbotron.png',
+              url: otdrJumbotron,
               alt: 'Addon networks otdr',
               caption: 'Main Call to Action'
             },
@@ -174,7 +190,7 @@ const WorkCards = [
             listHeading: '',
             list: [],
             img: {
-              url: 'https://gabegonzaga.io/assets/blog/addon/otdr-form.png',
+              url: otdrForm,
               alt: 'Main Content and Form Fields',
               caption: 'Main Content and Form Fields'
             },
@@ -187,7 +203,7 @@ const WorkCards = [
             listHeading: '',
             list: [],
             img: {
-              url: 'https://gabegonzaga.io/assets/blog/addon/otdr-mobile-group.png',
+              url: otdrMobile,
               alt: 'OTDR Mobile Views',
               caption: 'OTDR Mobile Views'
             },
@@ -200,7 +216,7 @@ const WorkCards = [
             listHeading: '',
             list: [],
             img: {
-              url: 'https://gabegonzaga.io/assets/blog/addon/otdr-analytics.png',
+              url: otdrAnalytics,
               alt: 'OTDR google analytics',
               caption: 'OTDR Analytics'
             },
@@ -233,7 +249,7 @@ const WorkCards = [
           alt: 'edco logo'
         },
         postImg: {
-          url: 'https://gabegonzaga.io/assets/blog/edco/edco-desktop.png',
+          url: edcoDesktop,
           alt: 'Edco desktop view',
           caption: ''
         },
@@ -267,7 +283,7 @@ const WorkCards = [
           {
             heading: 'Outcome',
             img: {
-              url: 'https://gabegonzaga.io/assets/blog/edco/before-after-2.png',
+              url: edcoBeforeAfter,
               alt: 'Edco desktop views',
               caption: 'Before & After Example'
             },
@@ -325,26 +341,107 @@ const WorkCards = [
         title: 'Proline Options',
         subtitle: '',
         role: 'Frontend Development',
-        description: 'Proline Options is a partner company of AddOn Networks. I coordinated and assisted their marketing team and managed the website launch. I developed frontend landing pages, widgets, tabs, and web media.',
         cta: 'Read More',
         img: {
           url: proline,
           alt: 'proline options logo'
         },
         postImg: {
-          url: '',
-          alt: '',
+          url: prolineOptions,
+          alt: 'Proline Options',
           caption: ''
         },
         intro: [
           {
-            duration: '',
-            team: [],
-            role: [],
-            location: ''
+            duration: 'June 2018 - September 2018',
+            team: [ 'Paul Schulte (AddOn Networks)', 'Stanislav Pershin (Saritasa)', 'Gabe Gonzaga' ],
+            role: [ 'Frontend Development', 'Project Coordination' ],
+            location: 'Tustin, CA'
           }
         ],
         content: [
+          {
+            heading: 'Background',
+            paragraph: [
+              'Proline Options is a partner company of AddOn Networks. I coordinated and assisted their marketing team with their website launch. Previous graphic designer departed mid project. I onboarded and started contributing immediately.'
+            ],
+            listHeading: 'Goal',
+            list: [
+              'Complete the Proline Options frontend application utilizing Vue.js framework',
+              'Work within original brand guidelines'
+            ],
+            img: {
+              url: '',
+              alt: '',
+              caption: ''
+            }
+          },
+          {
+            heading: 'Outcome',
+            paragraph: [
+              'I worked to complete the Proline Options website launch in three months by coordinating and contributing to the Proline Options Vue.js application. During the development phase, I created new landing pages and collaborated with the Saritasa Kazakhstan team synchronously.'
+            ],
+            listHeading: '',
+            list: [],
+            img: {
+              url: '',
+              alt: '',
+              caption: ''
+            }
+          },
+          {
+            heading: 'Takeaway',
+            paragraph: [
+              'Vue.js is a simple JavaScript framework that\'s easy to learn. The documentation on the site is detailed with a large community following behind the framework. The application was lightning quick rendering data from backend endpoints to the frontend.'
+            ],
+            listHeading: '',
+            list: [],
+            img: {
+              url: '',
+              alt: '',
+              caption: ''
+            }
+          }
+        ]
+    },
+    {
+        id: 'sn',
+        link: 'https://smithandnoble.com',
+        title: 'Smith & Noble',
+        subtitle: 'Frontend Development',
+        role: 'Frontend Development, Email Marketing',
+        cta: 'Read More',
+        img: {
+          url: sn,
+          alt: 'smith and noble logo'
+        },
+        postImg: {
+          url: 'https://www.smithandnoble.com/wp/wp-content/uploads/2018/12/about-us-background.jpg',
+          alt: 'smith and noble team',
+          caption: ''
+        },
+        intro: [
+          {
+            duration: 'September 2017 - January 2020',
+            team: [ 'Duy Tran (Director)', 'Oscar Guerrero (Designer)', 'Gabe Gonzaga' ],
+            role: [ 'Frontend Development', 'Web/Graphic Design' ],
+            location: 'Corona, CA'
+          }
+        ],
+        content: [
+          {
+            heading: 'Background',
+            img: {
+              url: '',
+              alt: '',
+              caption: ''
+            },
+            paragraph: [
+              'Smith & Noble is a custom window design and treatment company. I worked with the marketing team developing landing pages, analyzing A/B tests, conversions, and supported creative email campaigns. My main contributions were to develop landing pages in sync with the weekly email campaigns and analyze user behavior.'
+            ],
+            listHeading: '',
+            list: []
+          },
           {
             heading: '',
             img: {
@@ -357,35 +454,7 @@ const WorkCards = [
             ],
             listHeading: '',
             list: []
-          }
-        ]
-    },
-    {
-        id: 'sn',
-        link: 'https://smithandnoble.com',
-        title: 'Smith & Noble',
-        subtitle: '',
-        role: 'Frontend Development, Email Marketing',
-        description: 'Smith & Noble provides custom window design and is based in Corona, CA. I worked with the marketing team developing landing pages, analyzing A/B tests, conversions, and supported creative email campaigns.',
-        cta: 'Read More',
-        img: {
-          url: sn,
-          alt: 'smith and noble log'
-        },
-        postImg: {
-          url: '',
-          alt: '',
-          caption: ''
-        },
-        intro: [
-          {
-            duration: '',
-            team: [],
-            role: [],
-            location: ''
-          }
-        ],
-        content: [
+          },
           {
             heading: '',
             img: {

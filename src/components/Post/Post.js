@@ -20,40 +20,17 @@ export default function Post({ match }) {
           <Link to="/posts">← Back</Link>
         </div>
       </nav>
+
       <div>
         { blog.img === '' ? null : <img src={blog.img.url} alt={blog.img.alt} /> }
       </div>
 
-      {blog.intro.map(({
-        img,
-        duration,
-        skills,
-        team }) =>
-          <section className="intro">
-            <div className="header-intro">
-              <h2>{blog.title}</h2>
-              <p>{blog.subtitle}</p>
-            </div>
-
-            <div className="sub-intro">
-              <div>
-                <h3>Duration</h3>
-                { duration === '' ? null : <p>{duration}</p> }
-              </div>
-
-              <div className="team">
-                <h3>Team</h3>
-                { Array.isArray(team) ? team.map(team => <p>{team}</p>) : null }
-              </div>
-
-              <div>
-                <h3>Skills</h3>
-                { Array.isArray(skills) ? skills.map(skills => <p>{skills}</p>) : null }
-              </div>
-
-            </div>
-          </section>
-      )}
+      <section className="intro">
+        <div className="header-intro">
+          <h2>{blog.title}</h2>
+          <p>{blog.subtitle}</p>
+        </div>
+      </section>
 
       {blog.content.map(({
         heading,
@@ -79,6 +56,13 @@ export default function Post({ match }) {
 
             </section>
       )}
+
+      <nav style={{ paddingTop: 15, paddingBottom: 15 }}>
+        <div>
+          <Link to="/">← Back</Link>
+        </div>
+      </nav>
+
     </div>
   )
 }
