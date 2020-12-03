@@ -1,4 +1,4 @@
-import addon from '../../images/addon.png'
+import addon from '../../images/addon/addon-logo.png'
 import addonLab from '../../images/addon/addon-outside.png'
 import addonChallenges from '../../images/addon/addon-challenges.png'
 import addonGA from '../../images/addon/addon.png'
@@ -10,12 +10,13 @@ import otdrMobile from '../../images/addon/otdr-mobile-group.png'
 import otdrAnalytics from '../../images/addon/otdr-analytics.png'
 import prolineOptions from '../../images/addon/prolineoptions.png'
 
-import edco from '../../images/edco.png'
+import edco from '../../images/edco/edco-logo.png'
 import edcoDesktop from '../../images/edco/edco-desktop.png'
-import edcoBeforeAfter from '../../images/edco/before-after-2.png'
+import edcoBeforeAfter from '../../images/edco/before-after.png'
+import edcoWework from '../../images/edco/wework.png'
 
-import proline from '../../images/proline.png'
-import sn from '../../images/sn.png'
+import proline from '../../images/addon/proline.png'
+import sn from '../../images/addon/sn.png'
 
 
 
@@ -249,8 +250,8 @@ const WorkCards = [
           alt: 'edco logo'
         },
         postImg: {
-          url: edcoDesktop,
-          alt: 'Edco desktop view',
+          url: edcoWework,
+          alt: 'Edco wework office',
           caption: ''
         },
         intro: [
@@ -271,7 +272,7 @@ const WorkCards = [
             },
             paragraph: [
               'Edco is a fundraising platform for K-12 schools based in New York. The Edco platform allows users to raise funds, create team pages, invite members, and promote their fundraising activities.',
-              'I onboarded during the development phase to complete the internal dashboard mobile views. The initial developer departed midway and did not implement the Bootstrap (CSS Framework) correctly, leaving many issues and bugs on the mobile web frontend.'
+              'I onboarded during the development phase to complete the internal dashboard mobile views. The initial developer departed midway and did not implement the Bootstrap (CSS Framework) correctly, leaving many issues and bugs on the frontend.'
             ],
             listHeading: 'Challenges',
             list: [
@@ -284,12 +285,25 @@ const WorkCards = [
             heading: 'Outcome',
             img: {
               url: edcoBeforeAfter,
-              alt: 'Edco desktop views',
-              caption: 'Before & After Example'
+              alt: 'edco before and after',
+              caption: '',
             },
             paragraph: [
               'Edco utilizes a Java backend (Spring framework) where I worked around and cleaned up the CSS Bootstrap code. I simplified and ensured that elements utilizing Bootstrap v3 features were written using common practices. ',
               'I made sure internal dashboard pages were consistent across smartphone viewports, tablets, and desktops. There were 20+ pages to develop and launch for production. Rigorous testing and updates were performed to clean up frontend issues.'
+            ],
+            listHeading: '',
+            list: []
+          },
+          {
+            heading: '',
+            img: {
+              url: edcoDesktop,
+              alt: 'edco desktop',
+              caption: ''
+            },
+            paragraph: [
+              ''
             ],
             listHeading: '',
             list: []
@@ -339,7 +353,7 @@ const WorkCards = [
         id: 'proline',
         link: 'https://prolineoptions.com',
         title: 'Proline Options',
-        subtitle: '',
+        subtitle: 'Vue.js Application',
         role: 'Frontend Development',
         cta: 'Read More',
         img: {
@@ -367,7 +381,7 @@ const WorkCards = [
             ],
             listHeading: 'Goal',
             list: [
-              'Complete the Proline Options frontend application utilizing Vue.js framework',
+              'Complete the Proline Options Vue.js frontend application',
               'Work within original brand guidelines'
             ],
             img: {
@@ -379,7 +393,7 @@ const WorkCards = [
           {
             heading: 'Outcome',
             paragraph: [
-              'I worked to complete the Proline Options website launch in three months by coordinating and contributing to the Proline Options Vue.js application. During the development phase, I created new landing pages and collaborated with the Saritasa Kazakhstan team synchronously.'
+              'I worked to complete the Proline Options website launch in three months by coordinating and contributing to the Proline Options application. During the development phase, I created new landing pages and collaborated with the Saritasa Kazakhstan team synchronously. We utilized Git for version control.'
             ],
             listHeading: '',
             list: [],

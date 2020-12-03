@@ -22,7 +22,12 @@ export default function Post({ match }) {
       </nav>
 
       <div>
-        { blog.img === '' ? null : <img src={blog.img.url} alt={blog.img.alt} /> }
+        { blog.img === '' ?
+            null :
+              <div>
+                <img src={blog.img.url} alt={blog.img.alt} />
+                <small>{blog.img.caption}</small>
+              </div> }
       </div>
 
       <section className="intro">
@@ -38,14 +43,15 @@ export default function Post({ match }) {
         img,
         list }) =>
           <section className="content">
+            {/* HEADING */}
             { heading === '' ? null : <h2>{heading}</h2> }
 
-            { img.url === '' ? null : <img src={img.url} alt={img.alt} /> }
-
+            {/* PARAGRAPH */}
             { Array.isArray(paragraph) ?
                 paragraph.map(paragraph =>
                   <p>{paragraph}</p>) : null }
 
+            {/* LIST */}
             { Array.isArray(list) ?
               list.map(list =>
                 <ul>
@@ -54,15 +60,10 @@ export default function Post({ match }) {
                   </li>
                 </ul>) : null }
 
-            </section>
+            {/* IMAGE */}
+            { img.url === '' ? null : <img src={img.url} alt={img.alt} /> }
+          </section>
       )}
-
-      <nav style={{ paddingTop: 15, paddingBottom: 15 }}>
-        <div>
-          <Link to="/">← Back</Link>
-        </div>
-      </nav>
-
     </div>
   )
 }

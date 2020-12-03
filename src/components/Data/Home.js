@@ -7,7 +7,7 @@ const Home =
       alt: 'Gabe Gonzaga'
     },
     name: 'Gabe Gonzaga',
-    pitch: 'I\'m a hybrid Web Designer/Developer working out of Irvine, CA. Currently studying UX Design at UCLA. Thanks for visiting!',
+    pitch: 'I\'m a hybrid Web Designer/Developer based in Irvine, CA. Currently studying UX Design at UCLA. Thanks for visiting!',
   }
 
 export default Home

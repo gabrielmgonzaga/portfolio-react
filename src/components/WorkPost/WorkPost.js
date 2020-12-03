@@ -29,17 +29,9 @@ export default function Post({ match }) {
         location }) =>
           <section className="intro animate fadeIn">
             <div className="header-intro">
+              <span className={`${workCard.id} block`}></span>
               <h2>{workCard.title}</h2>
-              <span></span>
               <h4>{workCard.subtitle}</h4>
-            </div>
-
-            <div>
-              { workCard.postImg === '' ? null :
-                <div>
-                  <img src={workCard.postImg.url} alt={workCard.postImg.alt} />
-                  <small>{workCard.postImg.caption}</small>
-                </div> }
             </div>
 
             <div className="sub-intro">
@@ -62,6 +54,14 @@ export default function Post({ match }) {
                 <h3>Location</h3>
                 { location === '' ? null : <p>{location}</p> }
               </div>
+            </div>
+
+            <div>
+              { workCard.postImg === '' ? null :
+                <div>
+                  <img src={workCard.postImg.url} alt={workCard.postImg.alt} />
+                  <small>{workCard.postImg.caption}</small>
+                </div> }
             </div>
           </section>
       )}
