@@ -16,7 +16,7 @@ export default function About() {
             <Nav />
 
             <section className="about animate fadeIn">
-                <div>
+                <div className="quote">
                   <h2>About <span role="img" aria-label="globe">🌏</span></h2>
                   <div>
                     <p>In the past 3 years, I've assisted creative marketing teams, businesses, and stakeholders with web design and development.</p>
@@ -24,11 +24,6 @@ export default function About() {
                     <p>I live for music, nature, animals, and family.</p>
                     <p>Thanks for reading!</p>
                   </div>
-                </div>
-
-                <div className="quote">
-                  <p><em>"Simplicity is the ultimate sophistication"</em></p>
-                  <small>- Leonardo da Vinci</small>
                 </div>
             </section>
 
