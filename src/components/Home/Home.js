@@ -18,9 +18,9 @@ export default function Home() {
               <img
                 src={home.img.url}
                 alt={home.img.alt}
-                style={{ borderRadius: 60, width: 80, height: 80 }}
+                style={{ borderRadius: 60, width: 80, height: 80, marginRight: 15 }}
               />
-              <h1>{home.name}</h1>
+              <h1>{home.name} <br/> {home.last}</h1>
             </div>
 
             <p>

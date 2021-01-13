@@ -1,13 +1,14 @@
-import gg from '../../images/gg.png'
+import gabe from '../../images/gabe.jpg'
 
 const Home =
   {
     img: {
-      url: gg,
+      url: gabe,
       alt: 'Gabe Gonzaga'
     },
-    name: 'Gabe Gonzaga',
-    pitch: 'I\'m a hybrid Web Designer/Developer based in Irvine, CA. Currently studying UX Design at UCLA. Thanks for visiting!',
+    name: 'Gabe',
+    last: 'Gonzaga',
+    pitch: 'Hello, thanks for visiting! I\'m a web developer with four years experience presently based in Orange County, CA. Below are previous projects I\'ve worked on.',
   }
 
 export default Home
