@@ -8,7 +8,7 @@ const Home =
     },
     name: 'Gabe',
     last: 'Gonzaga',
-    pitch: 'Hello, thanks for visiting! I\'m a web developer with four years experience presently based in Orange County, CA. Below are previous projects I\'ve worked on.',
+    pitch: 'Hello! I\'m a web developer with four years experience. Below are projects I\'ve worked on.',
   }
 
 export default Home
