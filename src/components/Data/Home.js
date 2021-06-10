@@ -1,14 +1,14 @@
-import gabe from '../../images/gabe.jpg'
+import gabe from '../../images/gg.png'
 
 const Home =
   {
     img: {
       url: gabe,
-      alt: 'Gabe Gonzaga'
+      alt: 'Miko Gonzaga'
     },
-    name: 'Gabe',
+    name: 'Miko',
     last: 'Gonzaga',
-    pitch: 'Hello! I\'m a web developer with four years experience. Below are projects I\'ve worked on.',
+    pitch: 'I\'m a front end developer with four years experience specializing in responsive web design. I\'m currently at General Assembly studying User Experience Design.',
   }
 
 export default Home
