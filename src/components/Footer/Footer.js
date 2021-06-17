@@ -13,10 +13,10 @@ export default function Footer() {
                   <Link to="/posts">Posts</Link>
                 </li>
                 <li>
-                    <a rel="noopener noreferrer" target="_blank" href="https://linkedin.com/in/gabriel-gonzaga">LinkedIn</a>
+                    <a rel="noopener noreferrer" target="_blank" href="https://linkedin.com/in/mikogonzaga">LinkedIn</a>
                 </li>
                 <li>
-                    <a rel="noopener noreferrer" target="_blank" href="https://github.com/gabrielmgonzaga">Github</a>
+                    <a rel="noopener noreferrer" target="_blank" href="https://github.com/miikogonzaga">Github</a>
                 </li>
             </ul>
         </footer>
